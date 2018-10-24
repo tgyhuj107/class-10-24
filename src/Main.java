@@ -118,13 +118,50 @@ public class Main {
 //                        break;
 //                }
 //        }
-        int a=scn.nextInt(),b=scn.nextInt(),sum=0;
-        if (a<b){
-            for (int i=a;i<=b;i++){
-                sum+=i;
+//        int a=scn.nextInt(),b=scn.nextInt(),sum=0;
+//        if (a<b){
+//            for (int i=a;i<=b;i++){
+//                sum+=i;
+//            }
+//            System.out.println(sum);
+//        }
+
+//        int n =scn.nextInt();
+//        for (int i=1;i<=n;i++){
+//            for (int j=1;j<=i;j++){
+//                System.out.print("@");
+//            }
+//            System.out.println();
+//        }
+
+        int n =scn.nextInt();
+        for (int a=n;a>=1;a--){
+            for (int k=a/2+1;k>=1;k--){
+                System.out.print("@");
             }
-            System.out.println(sum);
+            System.out.println();
         }
+        for (int i=1;i<=n;i++){
+
+            for (int j=1;j<=2*i-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
+//        int n =scn.nextInt();
+//        for (int i=1;i<=n;i++){
+//            System.out.println(i +" "+ i*i);
+//        }
+
+//        int a=scn.nextInt(),b=scn.nextInt(),sum=0;
+//        for (int i=a;i<=b;i++){
+//            if (i%2==1){
+//                sum+=i;
+//            }
+//        }
+//        System.out.println(sum);
 
 
 
